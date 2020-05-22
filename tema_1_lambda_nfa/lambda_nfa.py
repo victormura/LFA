@@ -14,7 +14,7 @@ def lambda_nfa(word, index, state):
                     return True
     return False
 
-with open("setup_lambda_nfa.in") as file:
+with open("setup_dfa.in") as file:
     # Data input
     n = int(file.readline())
     m = int(file.readline())
